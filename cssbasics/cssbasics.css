@@ -1,0 +1,11 @@
+main p {
+    color:blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bolder;
+    font-size: larger;
+    
+}
+footer p{
+    color:aquamarine;
+    font-style: obliques;
+}
