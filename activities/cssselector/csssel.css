@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#first{
+    color: rgb(255, 0, 183)
+}
+
+.second {
+    font-size: large;
+    font-weight: bold;
+}
+
+.bigger{
+    font-size: 24pt;
+    font-family: cursive;
+}
+
+.green{
+    color: green;
+}
+
+.bluebigger{
+    color: blue;
+    font-size: larger;
+    font-weight: bolder;
+}
+.dark{
+    background-color: rgb(168, 241, 255);
+}
