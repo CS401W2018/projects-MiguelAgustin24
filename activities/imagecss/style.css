@@ -1,0 +1,30 @@
+header{
+    font-size: larger;
+    color:aqua;
+    border: 5px;
+}
+main h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: pink;
+}
+
+main p {
+    font-size: 50px;
+    text-align: center;
+    background-color: aquamarine;
+
+}
+
+footer{
+    font-size: larger;
+    text-align: center;
+    background-color: pink;
+}
+
+#Dog {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
