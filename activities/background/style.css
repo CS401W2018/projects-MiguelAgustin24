@@ -1,0 +1,38 @@
+
+main h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:deeppink;
+    text-align: center;
+    
+    
+}
+body{
+    background-image: url('../bgimage.jpg');
+}
+header {
+    background-image: url('../happyDog.jpg');
+    color: cornflowerblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+nav a {
+    color:darkturquoise
+}
+
+.current {
+    color:lightgoldenrodyellow;
+}
+
+footer{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.first{
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
