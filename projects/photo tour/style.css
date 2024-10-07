@@ -1,0 +1,129 @@
+ body{
+    background: url('background2.jpg') skyblue;
+    background-size: 500px 400px;
+    
+}
+.norepeat{
+    background: url('flag.gif') no-repeat;
+    background-size:400px 350px;
+    background-position: bottom right;
+    
+}
+.current {
+    color:orange;
+}
+.list{
+   list-style-image: url('fil.ico');
+   list-style-position:inside;
+   
+}
+.ek {
+    display: block;
+    width: 600px;
+    height: 410px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid lightsalmon;
+    
+  }
+
+.falls{
+    display: block;
+    width: 600px;
+    height: 410px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid lightsalmon;
+}
+.church{
+    display: block;
+    width: 600px;
+    height: 410px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid lightcyan;
+
+}
+
+.rizal{
+    display: block;
+    width: 600px;
+    height: 410px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid lightcyan;
+}
+
+.lechon{
+    display: block;
+    width: 600px;
+    height: 410px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid lightyellow;
+
+}
+.wow{
+    display: block;
+    width: 600px;
+    height: 410px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid orange;
+}
+.apo{
+    display: block;
+    width: 600px;
+    height: 410px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid greenyellow;
+}
+
+nav{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+    
+}
+
+header{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: lightcoral;
+    
+}
+.dog{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+main p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: aquamarine;
+    font-style: italic;
+}
+main ul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+
+}
+main blockquote{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 300;
+    border: 2px solid darkgreen;
+
+}
