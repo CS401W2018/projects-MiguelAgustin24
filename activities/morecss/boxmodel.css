@@ -1,0 +1,56 @@
+body{
+    background-color: skyblue;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header{
+    background-color: #333;
+    color: pink;
+    padding: 10px 30px 20px 30px;
+    text-align: center;
+    width: 70%;
+    margin: 30px auto;
+    
+}
+figure{
+    border: thin solid #333;
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+#wrapper{
+    width: 90%;
+    
+    margin: 0 auto;
+    background-color: white;
+}
+
+img{
+    width: 300px
+}
+header h1{
+    margin-bottom: 0;
+    border: 3px solid white;
+}
+
+nav{
+    background-color: #444;
+    color: white;
+    text-align: center;
+    height: 20px;
+    padding: 10px;
+}
+main h2{
+    text-align: center;
+    color: #333;
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
