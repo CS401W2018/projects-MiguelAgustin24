@@ -1,0 +1,100 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: lightcyan;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    color: chocolate;
+}
+
+#pic1{
+    float: right;
+    width: 400px;
+    margin: 10px;
+    border: 1px solid black;
+    position:relative;
+    
+}
+nav{
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+nav a{
+    display: inline-block;
+    padding: 10px 5px;
+    background-color: darkcyan;
+    border-bottom: 5px solid darkslategray;
+    color: white;
+    margin-left: 30px;
+    width: 80px;
+    text-align: center;
+}
+nav a:hover{
+    background-color: darkslategray;
+}
+#wrapper{
+    width: 90%;
+    
+    margin: 0 auto;
+    background-color: white;
+}
+figure{
+    border: thin solid #333;
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.pic2{
+    width: 400px;
+    margin: 10px;
+    border: 1px solid black;
+    float: left;
+    position:relative;
+    
+  
+}
+.pic2 img{
+    width: 400px;
+    height: 300px;
+}
+
+#pic1 img{
+    width: 400px;
+    height: 300px;
+}
+
+.clear{
+    clear: both;
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+nav li{
+    float: left;
+    display: inline;
+}
+
+footer{
+    background-color: lightcyan;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    color: chocolate;
+    clear: both;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 10px;
+    border-top: 1px solid black;
+}
