@@ -10,7 +10,7 @@ header{
     padding: 20px 0;
     color: lightskyblue;
     text-shadow: purple 2px 2px 2px;
-    background: url('/projects-MiguelAgustin24/activities/avengersheader.jpg') no-repeat center;
+    background: url('avengersheader.jpg') no-repeat center;
     background-origin:padding-box;
     background-clip: inherit;
 }
@@ -64,7 +64,7 @@ nav a{
     border-style: outset;
 }
 nav a:hover{
-    background-image: url('/projects-MiguelAgustin24/activities/endgame.jpg');
+    background-image: url('endgame.jpg');
 }
 #wrapper{
     width: 90%;
@@ -129,7 +129,7 @@ nav li{
 }
 
 footer{
-    background: url('/projects-MiguelAgustin24/activities/avengersheader.jpg') no-repeat center;
+    background: url('avengersheader.jpg') no-repeat center;
     color: white;
     padding: 10px 0;
     text-align: center;
