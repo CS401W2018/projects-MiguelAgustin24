@@ -1,0 +1,19 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.item{
+    background-color: cadetblue;
+    color: white;
+    padding: 10px 20px;
+    width: 150px;
+    text-align: center;
+    
+}
