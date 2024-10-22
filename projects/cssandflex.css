@@ -1,0 +1,115 @@
+.container{
+    display: flex;
+    gap: 10px;
+    
+}
+header{
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: pink;
+    color: white;
+    padding: 0px;
+    border-right: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+nav a{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px;
+}
+.item{
+    background-color: rgb(13, 200, 209);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+    border-radius: 5px;
+    height: auto;
+    box-shadow: 0 0 5px 0 black;
+    border: 2px solid white;
+}
+.item img{
+    width: 200px;
+    height: 150px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+aside{
+    flex: 0 auto;
+    min-width: 100px;
+    max-width: 150px;
+    width: auto;
+    background-color: cadetblue;
+    color: white;
+    padding: 10px;
+    border-right: 2px solid black;
+    
+}
+nav a:hover{
+    color: black;
+    background-color: darkorchid;
+}
+main{
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.content .item {
+    flex: 0 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    
+}
+.item h2{
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+footer a{
+    display: block;
+    
+}
+footer a:hover {
+    background-color:aqua;
+    width: 100px;
+    text-align: center;
+}
+
+.footerdiv{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns */
+    grid-template-rows: repeat(4, auto); /* 4 rows */
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+footer p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    background-color: orange;
+    padding: 10px;
+}
+
