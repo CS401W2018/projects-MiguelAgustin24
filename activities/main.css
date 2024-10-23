@@ -1,0 +1,44 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.marvel{
+    background-color: #f0131e;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    
+}
+header h1{
+    margin: 0;
+}
+.super{
+    display: flex;
+    justify-content: space-between;
+}
+.marvel img{
+    width: 100%;
+}
+header{
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+nav{
+    background-color: brown;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    display: block;
+    padding: 10px 5px;
+    color: white;
+    text-decoration: none;
+}
