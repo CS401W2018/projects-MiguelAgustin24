@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tables</title>
+    <link rel="stylesheet" href="tables.css">
 </head>
 <body>
     <header>
@@ -15,11 +16,14 @@
         <a href="#">Contact</a>
     </nav>
     <main>
-        <table border="1">
-            <tr>
-                <td colspan="5" style="text-align: center;">Information</td>
-            </tr>
+        <table class = "items">
             <thead>
+            <tr>
+                <th colspan="5" id="total-credits">Information</th>
+            
+            </tr>
+            </thead>
+            <tbody>
                 <tr>
                     <th>First Name</th>
                     <th>Last Name</th>
@@ -29,8 +33,7 @@
                         Course
                     </th>
                 </tr>
-            </thead>
-            <tbody>
+            
                 <tr>
                     <td>Miguel</td>
                     <td>Agustin</td>
@@ -68,8 +71,41 @@
                 </tr>
 
             </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="4" id="total-students">Total Students</th>
+                    <td headers="total-students">5</td>
+                </tr>
+            </tfoot>
 
         </table>
+        <hr>
+        <h2>Questions</h2>
+        <ol>
+            <li>
+                Why don't we use the border property?
+                <ul>
+                    <li>
+                        We don't use the border property because it is not necessary to use it. The border property is used to create a border around an element. In this case, we don't need to create a border around the table because we can't edit it inside the css file..
+                    </li>
+                </ul>
+            </li>
+            <li>
+                What is the easiest way to color every other row a different color?
+                <ul>
+                    <li>
+                        The easiest way to color every other row a different color is by using the nth-child() selector. We can use the nth-child() selector to select every other row and apply a different background color to it.
+                    </li>
+                </ul>
+            </li>
+            <li>
+                When should we use a table?
+                <ul>
+                    <li>
+                        We should use a table when we need to display tabular data. Tables are used to organize and display data in rows and columns. They are useful for presenting data in a structured and organized way.
+                    </li>
+            </li>
+        </ol>
     </main>
     <footer></footer>
 </body>
