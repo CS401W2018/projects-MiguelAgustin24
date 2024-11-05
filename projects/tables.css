@@ -43,7 +43,12 @@ aside{
     color: white;
     padding: 10px;
 }
-
+caption{
+    font-size: larger;
+    font-weight: bold;
+    padding: 10px;
+    border: thin solid black;
+}
 .items{
     border: thin solid black;
     border-spacing: 0;
