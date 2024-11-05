@@ -1,0 +1,95 @@
+header{
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 5px 5px 5px black;
+}
+body{
+    background-color: #f0f8ff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: darkorange;
+    border: thin solid black;
+    
+}
+
+nav a{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.container{
+    display: flex;
+    gap: 10px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+}
+aside{
+    flex: 0 auto;
+    min-width: 20%;
+    max-width: 30%;
+    width: auto;
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}
+
+.items{
+    border: thin solid black;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin: 5px auto;
+    width: 100%; /* Make the table stretch */
+}
+
+.items td, .items th{
+    padding: 10px;
+    border: thin solid black;
+}
+
+.items thead, .items tfoot{
+    padding: 10px;
+    border: thin solid black;
+    background-color: darkorange;
+    color: white;
+}
+.items td{
+    font-size: larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.table-content{
+    gap: 10px;
+    text-align: center;
+    width: 100%;
+    margin-left: 5px;
+   
+}
+main{
+    flex: 1;
+}
+
+.items tbody tr:nth-child(odd){
+    background-color: khaki;
+}
+.items tbody tr:nth-child(even){
+    background-color:lightsalmon;
+}
+
+footer{
+    background-color: darkorange;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-top: thin solid black;
+}
