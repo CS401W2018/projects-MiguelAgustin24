@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Web Design
+        </h1>
+    </header>
+    <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+    </nav>
+    <hr>
+    <main>
+        <form action="processing.html" method="post">
+            First Name: <input type="text" name="first" value="" required="required" placeholder="First Name"><br>
+            Last Name:<input type="text" name="last" placeholder="Last Name"><br>
+            Password: <input type="password" name="password" placeholder="password"><br>
+            <input type="submit">
+        </form>
+        <hr>
+        <h3>
+            Choose at least one flavor
+        </h3>
+        <form action="processing.html" method="post">
+            <input type="checkbox" name="check" value="1">Strawberry<br>
+            <input type="checkbox" name="check" value ="2">Chocolate<br>
+            <input type="checkbox" name="check" value="3">Banana<br>
+            <input type="submit">
+        </form>
+        <hr>
+        <h3>
+            This is a radio button
+        </h3>
+        <form action="processing.html" method="post">
+            <input type="radio" name="radio" value = "1">Radio 1<br>
+            <input type="radio" name="radio" value ="2">Radio 2<br>
+            <input type="radio" name="radio" value = "3">Radio 3<br>
+            <input type="submit">
+        </form>
+        <hr>
+        <h3>
+            This is a drop down menu
+        </h3>
+        <form action="processing.html" method="post">
+            <select name="dropdown">
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+            </select>
+            <input type="submit">
+        </form>
+        <hr>
+        <h3>This is a sample menu</h3>
+        <form action="processing.html" method="post">
+            <input type="radio" name="menu" value="1">Breakfast<br>
+            <input type="radio" name="menu" value="2">Lunch<br>
+            <input type="radio" name="menu" value="3">Dinner<br>
+            <input type="submit">
+        </form>
+        <hr>
+        <h3>
+            Comments
+        </h3>
+        <form action="processing.html" method="post">
+            <textarea name="text" rows="4" cols="50" placeholder="Enter text here"></textarea>
+            <input type="submit">
+
+        <h2>Questions for Engagement</h2>
+        <ol>
+            <li>
+                The form tag has an "action" attribute. What does it do?
+                <ul>
+                    <li>
+                        It specifies the URL of the page that will process the form data.
+                    </li>
+                </ul>
+                <li>
+                    The form tag has a "method" attribute. What does it do?
+                    <ul>
+                        <li>
+                            It specifies the HTTP method to use when sending form data.
+                        </li>
+                    </ul>
+                    <li>
+                        What is the difference between a "POST" and a "GET"?
+                        <ul>
+                            <li>
+                                POST hides the form data from the URL, while GET appends the form data to the URL.
+                            </li>
+                        </ul>
+                    </li>
+                </li>
+            </li>
+        </ol>
+    </main>
+    <footer>
+        <p>&copy; 2024 Miguel Agustin</p>
+    </footer>
+</body>
+</html>
