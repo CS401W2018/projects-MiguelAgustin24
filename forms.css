@@ -4,3 +4,57 @@ body{
     margin: 0;
     padding: 0;
 }
+
+fieldset{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px black;
+    background-color: aqua;
+}
+legend{
+    font-size: 1.2em;
+    font-weight: bold;
+    border: thin solid black;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+.form-row, .check-row{
+    display: flex;
+    gap: 10px;
+    margin-top:10px;
+}
+
+.form-row label{
+    width: 150px;
+    text-align: right;  
+}
+
+.spacer{
+    width:150px;
+    text-align: right;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .form-row{
+        flex-direction: column;
+    }
+    .check-row{
+        flex-direction: column;
+    }
+    .form-row label{
+        width: auto;
+        text-align: left;
+    }
+    .spacer{
+        width: auto;
+        text-align: left;
+    }
+    input[type="submit"]{
+        margin-left: 150px;
+    }
+}

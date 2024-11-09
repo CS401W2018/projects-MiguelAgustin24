@@ -19,86 +19,116 @@
     </nav>
     <hr>
     <main>
-        <form action="processing.html" method="post">
-            First Name: <input type="text" name="first" value="" required="required" placeholder="First Name"><br>
-            Last Name:<input type="text" name="last" placeholder="Last Name"><br>
-            Password: <input type="password" name="password" placeholder="password"><br>
-            <input type="submit">
-        </form>
+        <form action="processing.html" method="post"> 
+        <fieldset>
+            <legend>
+                User Information
+            </legend>
+            <div class ="form-row">
+                <label for="fname">First Name: </label>
+                <input type="text" id="fname" name="first" value="Miguel" required="required" placeholder="First Name">
+            </div>
+            <div class="form-row">
+                <label for="lname">Last Name: </label>
+                <input type="text" id="lname" name="last" value="Agustin" required="required" placeholder="Last Name">
+            </div>
+            <div class ="form-row">
+                <label for="password">Password: </label>
+                <input type="password" id="password" name="password" required="required" placeholder="Password">
+            </div>
+            <div class="form-row">
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required="required" placeholder="Email">
+            </div>
+
+            <div class="check-row">
+                <div class="spacer"></div>
+                    <label>
+                    <input type="checkbox" id="remember" name="remember" value="1">
+                    </label>
+                    Remember Me
+                </div>
+            </div>
         <hr>
         <h3>
             Choose at least one flavor
         </h3>
-        <form action="processing.html" method="post">
-            <input type="checkbox" name="check" value="1">Strawberry<br>
-            <input type="checkbox" name="check" value ="2">Chocolate<br>
-            <input type="checkbox" name="check" value="3">Banana<br>
-            <input type="submit">
-        </form>
+
+            <div class = "check-row">
+                <div class="spacer">Flavors:</div>                
+                <label>
+                    <input type="checkbox" name="flavor" value="1">Vanilla
+                </label>
+                <label>
+                    <input type="checkbox" name="flavor" value="2">Chocolate
+                </label>
+                <label>
+                    <input type="checkbox" name="flavor" value="3">Strawberry
+                </label>
+            </div>
+        
         <hr>
         <h3>
             This is a radio button
         </h3>
-        <form action="processing.html" method="post">
-            <input type="radio" name="radio" value = "1">Radio 1<br>
-            <input type="radio" name="radio" value ="2">Radio 2<br>
-            <input type="radio" name="radio" value = "3">Radio 3<br>
-            <input type="submit">
-        </form>
+    
+            <div class="form-row">
+                <label>
+                    <input type="radio" name="radio" value="1">Option 1
+                </label>
+                <label>
+                    <input type="radio" name="radio" value="2">Option 2
+                </label>
+                <label>
+                    <input type="radio" name="radio" value="3">Option 3
+                </label>
+            </div>
+        
         <hr>
-        <h3>
-            This is a drop down menu
-        </h3>
-        <form action="processing.html" method="post">
-            <select name="dropdown">
-                <option value="1">Option 1</option>
-                <option value="2">Option 2</option>
-                <option value="3">Option 3</option>
-            </select>
-            <input type="submit">
-        </form>
+           <div class="form-row">
+                <label for="menu">Choose a menu item: </label>
+                <select name="menu" id="menu">
+                    <option value="0">-</option>
+                     <option value="1">Breakfast</option>
+                     <option value="2">Lunch</option>
+                     <option value="3">Dinner</option>
+                </select>
+                
+           </div>
+        
         <hr>
-        <h3>This is a sample menu</h3>
-        <form action="processing.html" method="post">
-            <input type="radio" name="menu" value="1">Breakfast<br>
-            <input type="radio" name="menu" value="2">Lunch<br>
-            <input type="radio" name="menu" value="3">Dinner<br>
+        <div class="form-row">
+            <label for="comments">Comments: </label>
+                <textarea name="text" rows="4" cols="50" placeholder="Enter text here"></textarea>
+            
+            </div>
+    <div class="form-row">
+        <div class="spacer"></div>
             <input type="submit">
+    </div>
+        </fieldset>
         </form>
-        <hr>
-        <h3>
-            Comments
-        </h3>
-        <form action="processing.html" method="post">
-            <textarea name="text" rows="4" cols="50" placeholder="Enter text here"></textarea>
-            <input type="submit">
+        
 
         <h2>Questions for Engagement</h2>
         <ol>
             <li>
-                The form tag has an "action" attribute. What does it do?
+                What are different ways to style your form?
                 <ul>
                     <li>
-                        It specifies the URL of the page that will process the form data.
+                        Inline, Block, and Flex. In addition, you can use grid. We can also use a combination of these styles, such as, customizing the width, height, and padding of the form.
                     </li>
                 </ul>
-                <li>
-                    The form tag has a "method" attribute. What does it do?
-                    <ul>
-                        <li>
-                            It specifies the HTTP method to use when sending form data.
-                        </li>
-                    </ul>
-                    <li>
-                        What is the difference between a "POST" and a "GET"?
-                        <ul>
-                            <li>
-                                POST hides the form data from the URL, while GET appends the form data to the URL.
-                            </li>
-                        </ul>
-                    </li>
-                </li>
             </li>
+            <li>
+                Why does the professor like to use flex?
+                <ul>
+                    <li>
+                        Flex is a great way to style forms because it allows you to easily align items in a row or column. It is also easy to use and understand.
+                    </li>
+                </ul>
+            </li>
+          
         </ol>
     </main>
     <footer>
