@@ -23,14 +23,11 @@ document.getElementById('myForm').addEventListener('submit', function(event){
     xhr.onreadystatechange = function(){
         if(xhr.readyState === 4 && xhr.status === 200){
            const response = JSON.parse(xhr.responseText);
-           document.getElementById('message').innerHTML = response.message;
-           document.getElementById('myForm').innerHTML = "";
+              alert(response.message);
         } else if(xhr.readyState === 4 ){
             alert("Error: " + xhr.responseText);
         }
     };
     xhr.send(JSON.stringify(formData));
-    alert("I should happen last, right?");
-    
     console.log(formData);
 });
