@@ -19,6 +19,7 @@
     </nav>
     <hr>
     <main>
+        <div id="message"></div>
         <form action="processing.html" method="post" id="myForm"> 
         <fieldset>
             <legend>
@@ -35,6 +36,7 @@
             <div class="form-row">
                 <label for="age">Age: </label>
                 <input type="number" id="age" name="age" placeholder="Age">
+            </div>
             <div class ="form-row">
                 <label for="password">Password: </label>
                 <input type="password" id="password" name="password" placeholder="Password">
@@ -51,7 +53,6 @@
                     </label>
                     Remember Me
                 </div>
-            </div>
         <hr>
         <h3>
             Choose at least one flavor
@@ -102,7 +103,7 @@
         <hr>
         <div class="form-row">
             <label for="comments">Comments: </label>
-                <textarea name="text" rows="4" cols="50" placeholder="Enter text here"></textarea>
+                <textarea id="comments" name="text" rows="4" cols="50" placeholder="Enter text here"></textarea>
             
             </div>
     <div class="form-row">
@@ -116,65 +117,28 @@
         <h2>Questions for Engagement</h2>
         <ol>
         <li>
-            What is JavaScript? How did it get its name?
+            What is AJAX?
             <ul>
                 <li>
-                    JavaScript is a language that adds interactivity to websites. It got its name because it was marketed alongside Java, even though they aren’t very related.
+                    AJAX stands for Asynchronous JavaScript and XML. It is a set of web development techniques that allows web pages to be updated asynchronously by exchanging data with a web server behind the scenes. This means that it is possible to update parts of a web page without reloading the entire page.
                 </li>
             </ul>
-        </li>
-        <li>
-            What are the two ways you can run JavaScript?
-            <ul>
-                <li>
-                    You can run JavaScript in two ways: in the browser (for web pages) and on the server (using Node.js).
-                </li>
-            </ul>
-        </li>
-        <li>
-            What was the most popular front-end js library?
-            <ul>
-                <li>
-                    The most popular front-end JavaScript library used to be jQuery, which made handling web page elements easier.
-                </li>
-            </ul>
-        </li>
-        <li>
-            What is the most popular front-end js library today?
-            <ul>
-                <li>
-                    Today, the most popular front-end library is React, which makes building complex user interfaces simpler.
-                </li>
-            </ul>
+            <li>
+                Why do you put your JS Code in a separate file? 
+                <ul>
+                    <li>
+                        Putting your JS code in a separate file allows for better organization and separation of concerns. It also allows for better reusability of code and makes it easier to maintain and debug code.
+                    </li>
+                </ul>
+            </li>
         </li>
         </ol>
     </main>
     <footer>
         <p>&copy; 2024 Miguel Agustin</p>
     </footer>
-    <script>
-            document.getElementById('myForm').addEventListener('submit', function(event){
-                event.preventDefault();
-                const first = document.getElementById('fname').value;
-                const last = document.getElementById('lname').value;
-                const age = document.getElementById('age').value;
-                if(!first || !last){
-                    alert('Please fill out all fields');
-                    return;
-                }
-                if(!age|| age<18){
-                    alert('You must be 18 years or older to submit this form');
-                    return;
-                }
-                const formData = {
-                    first: first,
-                    last: last,
-                    age: age
-                }
-                console.log("Form Submitted " + first + " " + last);
-
-               alert("Form Submitted " + first + " " + last);
-            });
+    <script src ="forms.js">
+         
     </script>
 </body>
 </html>
