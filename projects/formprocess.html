@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Process</title>
+    <link rel="stylesheet" href="formprocess.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Form Process Project
+        </h1>
+    </header>
+    <nav>
+      <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Services</a>
+        <a href="#">FAQs</a>
+    </nav>
+    <main>
+        <div id="message"></div>
+        <form action="FormProj.php" method="post" id="FormProcess">
+            <fieldset>
+            <legend>
+                User Information
+            </legend>
+            <div class="form-row">
+                <label for="fname">First Name:</label>
+                <input type="text" name="name" id="fname" placeholder="First Name" value="Miguel">
+            </div>
+            <div class="form-row">
+                <label for="lname">Last Name:</label>
+                <input type="text" name="last" id="lname"  placeholder="Last Name" value="Agustin">
+            </div>
+            <div class="form-row">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" value="hello@gmail.com">
+            </div>
+            <div class = "form-row">
+                <label for="age">Age: </label>
+                <input type="number" name="age" id="age">
+            </div>
+            <div class="form-row">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <div class="check-row">
+                <div class="spacer"></div>
+                    <label>
+                    <input type="checkbox" id="notif" name="check" value="1">
+                    </label>
+                    Sign me up for more notifications about our services
+            </div>
+            <div class="check-row">
+                <div class="spacer"></div>
+                    <label>
+                    <input type="checkbox" id="terms" name="check" value="2">
+                    </label>
+                    I've read the terms and conditions
+            </div>
+        
+        <hr>
+        <h3> Let's get to know you better</h3>
+        <div class="form-row">
+            <label for="bday">Birthdate: </label>
+            <input type="date" name="age" id="bday">
+        </div>
+
+        <div class="form-row">
+            <label> Nationality: </label> 
+                <label>
+                    <input type="radio" name="radio" value="1"> American
+                </label>
+                <label>
+                    <input type="radio" name="radio" value="2">Asian
+                </label>
+                <label>
+                    <input type="radio" name="radio" value="3">European
+                </label>
+                <label>
+                    <input type="radio" name="radio" value="4">African
+                </label>
+                <label>
+                    <input type="radio" name="radio" value="5">Other
+                </label>
+        </div>
+
+        <div class="form-row">
+            <label for="education"> Education Level: </label>
+            <select name="education" id="education">
+                <option value="0">Select</option>
+                <option value="1">High School</option>
+                <option value="2">College</option>
+                <option value="3">Graduate School</option>
+                <option value="4">Doctorate</option>
+            </select>
+        </div>
+        
+        
+        <div class="form-row">
+            <label for="work"> Occupation: </label>
+            <select name="work" id="work">
+                <option value="0">Select</option>
+                <option value="1">Student</option>
+                <option value="2">Professional</option>
+                <option value="3">Unemployed</option>
+                <option value="4">Retired</option>
+            </select>
+        </div>
+
+        <hr>
+        <h3> Hobbies and Interests</h3>
+        <div class="form-row">
+            <label for="menu-active"> How would you describe your lifestyle? </label>
+            <label>
+                <input type="radio" name="hobby" id="menu-active" value="1"> Active
+            </label>
+            <label>
+                <input type="radio" name="hobby" id="menu-sedentary" value="2">Sedentary
+            </label>
+            <label>
+                <input type="radio" name="hobby" id="menu-balanced" value="3">Balanced
+            </label>
+        </div>
+
+        <div class="form-row">
+            <label for="comments">Hobbies and interests: </label>
+                <textarea name="text" id ="comments" rows="4" cols="50" placeholder="Enter text here"></textarea>
+        </div>
+
+        <hr>
+        <h3>
+            Emergency Contact Information
+        </h3>
+        <div class="form-row">
+            <label for="email">Email:</label>
+            <input type="email" name="contact" id="contact" placeholder="example@gmail.com">
+        </div>
+        <div class="form-row">
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        </div>
+        <div class="form-row">
+            <label for="address">Address:</label>
+            <input type="text" name="address" id="address">
+        </div>
+    
+
+        <div class="form-row">
+            <div class="spacer"></div>
+            <input type="submit">
+        </div>
+    </fieldset>
+</form>
+<script src="formprocess.js"></script>
+        
+
+
+    </main>
+    <footer>
+        <p>
+            &copy; 2024 Miguel Agustin - Form Process Project
+        </p>
+         
+    </footer>
+</body>
+</html>
