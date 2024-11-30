@@ -1,0 +1,252 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    padding: 10px;
+}
+
+header .header-logo {
+    width: 80px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+body{
+    background-color: lightblue;
+}
+header h1 {
+    color: white;
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 2em;
+}
+main h1{
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 10px;
+}
+.item{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 black;
+    width: 300px;
+}
+.birds{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 black;
+    width: 300px;
+}
+.birds img{
+    width: 100%;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+.plants{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 black;
+    width: 300px;
+    height:auto;
+}
+.plants img{
+    width: 100%;
+    height: 350px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+.item:hover {
+    color: lightsalmon; /* Slightly lighter shade of white */
+    border: 5px solid;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.item img{
+    width: 100%;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+.content .item {
+    flex: 0 1 auto;
+    box-sizing: border-box;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: orange;
+    color: white;
+    border: 2px solid white;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:comic sans ms;
+    font-weight: bold;
+}
+nav .logo{
+    width: 50px;
+    float: left;
+}
+
+.background{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 5px 0 black;
+    background-image: url('island-7232868_1280.png');
+}
+
+iframe{
+    width: 600px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 black;
+    display: block;
+    margin: 0 auto;
+}
+
+.motto p{
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+
+.first p{
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+.animalbackground{
+    background-color: rgb(243, 206, 106);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 5px 0 black;
+}
+
+.plantbackground{
+    background-color: lightgreen;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 5px 0 black;
+}
+.mathtable td, .mathtable th{
+    padding: 10px;
+    border: thin solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.mathtable thead, .mathtable tfoot{
+    padding: 10px;
+    border: thin solid black;
+    background-color: darkorange;
+    color: white;
+}
+.mathtable td, .mathtable th{
+    font-size: 45px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.mathtable th{
+    padding: 10px;
+    border: thin solid black;
+    background-color: darkturquoise;
+    color: white;
+
+}
+.mathtable thead tr th{
+    background-color: darkseagreen;
+    color: white;
+}
+.mathtable {
+    margin: 0 auto;
+    width:50%;
+    border-collapse: collapse;
+}
+.table-content{
+    gap: 10px;
+    text-align: center;
+    width: 100%;
+    margin-left: 5px;
+   
+}
+
+.form-row, .check-row {
+    display: flex;
+    gap: 15px; 
+    margin-top: 15px;
+}
+
+.form-row label {
+    width: 300px;
+    text-align: right;
+    font-family: 'Comic Sans MS', sans-serif;
+    font-weight: bolder;
+    color: orange;
+    font-size: 35px;
+}
+.spacer {
+    width: 150px;
+    text-align: center;
+}
+fieldset{
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    border-radius: 5px;
+}
+.formparent{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+main h3{
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+main h2{
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 2em;
+    color: white;
+    padding: 10px;
+    background-color: darkcyan;
+    text-align: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    font-family: 'Comic Sans MS', sans-serif;
+}
