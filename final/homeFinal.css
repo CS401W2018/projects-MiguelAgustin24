@@ -23,8 +23,22 @@ main h1{
     font-family: 'Comic Sans MS', sans-serif;
     font-size: 2em;
     text-align: center;
+    color: lightsalmon;
+    padding: 10px;
+    text-decoration: underline;
+}
+main p{
+    font-family: 'Comic Sans MS', sans-serif;
+    text-align: center;
+    color: white;
+}
+.fact p{
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
     color: white;
     padding: 10px;
+
 }
 
 .content{
@@ -52,6 +66,7 @@ main h1{
 }
 .birds img{
     width: 100%;
+    height: 300px;
     border-top: 2px solid white;
     border-bottom: 2px solid white;
 }
@@ -85,6 +100,12 @@ main h1{
     box-sizing: border-box;
     
 }
+.nav-link{
+    color: white;
+    text-decoration:underline;
+    border: 4px solid greenyellow;
+    font-size: 25px;
+}
 nav{
     display: flex;
     align-items: center;
@@ -104,14 +125,23 @@ nav .logo{
     width: 50px;
     float: left;
 }
+nav :hover{
+    text-decoration: underline;
+    font-size: 25px;
+}
 
 .background{
     background-color: orange;
     color: white;
-    text-align: center;
-    padding: 20px;
+    padding: 10px;
     box-shadow: 0 0 5px 0 black;
     background-image: url('island-7232868_1280.png');
+}
+.background2{
+    background-color: white;
+    color: white;
+    padding: 10px;
+    background-image: url('board-5599231_1280.png');
 }
 
 iframe{
@@ -128,8 +158,7 @@ iframe{
     font-family: 'Comic Sans MS', sans-serif;
     font-size: 1.5em;
     text-align: center;
-    color: black;
-    padding: 10px;
+    color: white;
 }
 
 .first p{
@@ -187,6 +216,11 @@ iframe{
     width:50%;
     border-collapse: collapse;
 }
+caption{
+    font-size: 20px;
+    font-family: 'Comic Sans MS', sans-serif;
+    color: white;
+}
 .table-content{
     gap: 10px;
     text-align: center;
@@ -241,6 +275,7 @@ main h2{
     background-color: darkcyan;
     text-align: center;
 }
+
 footer{
     display: flex;
     justify-content: center;
@@ -249,4 +284,116 @@ footer{
     padding: 10px;
     border: 2px solid white;
     font-family: 'Comic Sans MS', sans-serif;
+}
+
+@media only screen and (max-width: 600px){
+    nav{
+        flex-direction: column;
+    }
+    nav a{
+        border-bottom: thin solid white;
+        width: 100%;
+        text-align: center;
+    }
+    .item {
+        background-color: lightcoral;
+        margin: auto 10px;
+        width: 100%;
+    }
+    .content {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .content .item {
+        flex: 0 1 calc(100% - 20px);
+    }
+
+    .form-row, .check-row {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .form-row label {
+        width: 100%;
+        text-align: center;
+    }
+
+    .spacer {
+        width: 100%;
+        text-align: left;
+    }
+
+    fieldset{
+        width: 80%;
+    }
+    .formparent{
+        flex-direction: column;
+    }
+    .table-content{
+        width: 100%;
+    }
+    .mathtable {
+        width: 100%;
+    }
+    iframe{
+        width: 100%;
+    }
+    .background{
+        background-color: orange;
+        color: white;
+        padding: 10px;
+        background-image: url('island-7232868_1280.png');
+    }
+    .background2{
+        background-color: white;
+        color: white;
+        padding: 10px;
+        background-image: url('board-5599231_1280.png');
+    }
+    .birds img{
+        width: 100%;
+        height: 200px;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+    }
+    .plants img{
+        width: 100%;
+        height: 250px;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+    }
+    .item img{
+        width: 100%;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+    }
+    .nav-link{
+        font-size: 20px;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: orange;
+        color: white;
+        border: 2px solid white;
+    }
+    nav a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        font-family:comic sans ms;
+        font-weight: bold;
+
+    }
+    input[type = text], input[type = email], input[type = number], input[type = date], input[type = password], select, textarea{
+        width: 50%;
+        padding: 12px 20px;
+        margin: 0 auto;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
 }
