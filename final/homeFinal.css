@@ -90,6 +90,14 @@ main p{
     border: 5px solid;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
+.sucess{
+    font-size: 20px;
+    font-family: 'Comic Sans MS', sans-serif;
+    border: 2px solid papayawhip;
+    background-color: lightgreen;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
 .item img{
     width: 100%;
     border-top: 2px solid white;
