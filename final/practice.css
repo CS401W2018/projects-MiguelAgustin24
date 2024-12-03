@@ -1,0 +1,12 @@
+body{
+    color: blue;
+}
+nav{
+    display: block;
+    padding: 10px;
+}
+.text{
+    margin: 0 auto;
+    padding: 5px;
+    border: 3px solid black;
+}

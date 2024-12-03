@@ -95,6 +95,13 @@ main p{
     border-top: 2px solid white;
     border-bottom: 2px solid white;
 }
+.item p{
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
 .content .item {
     flex: 0 1 auto;
     box-sizing: border-box;
@@ -234,6 +241,16 @@ caption{
     gap: 15px; 
     margin-top: 15px;
 }
+.english-row, .check-row {
+    display: flex;
+    gap: 15px; 
+    margin-top: 15px;
+}
+.signup, .check-row {
+    display: flex;
+    gap: 15px; 
+    margin-top: 15px;
+}
 
 .form-row label {
     width: 300px;
@@ -242,6 +259,25 @@ caption{
     font-weight: bolder;
     color: orange;
     font-size: 35px;
+}
+.english-row label {
+    width: 800px;
+    text-align: right;
+    font-family: 'Comic Sans MS', sans-serif;
+    font-weight: bolder;
+    color: orange;
+    font-size: 25px;
+    text-align: left;
+}
+.signup label {
+    width: 200px;
+    text-align: right;
+    font-family: 'Comic Sans MS', sans-serif;
+    font-weight: bolder;
+    color: orange;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 5px;
 }
 .spacer {
     width: 150px;
@@ -265,7 +301,6 @@ main h3{
     font-size: 2em;
     text-align: center;
     color: white;
-    padding: 10px;
 }
 main h2{
     font-family: 'Comic Sans MS', sans-serif;
@@ -273,6 +308,65 @@ main h2{
     color: white;
     padding: 10px;
     background-color: darkcyan;
+    text-align: center;
+}
+.border{
+    border: 2px solid white;
+}
+.greetings{
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 2em;
+    border: 3px solid orange;
+    color: rgb(102, 104, 24);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 5px;
+}
+.loginparent{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+    height:600px;
+    margin: 0 auto;
+}
+.signin{
+    border: 3px solid orange;
+    margin: 5px;
+}
+.new{
+    border: 3px solid orange;
+    margin: 5px;
+    
+}
+input[type="submit"]{
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 1.5em;
+    width: 50%;
+    margin: 0 auto;
+}
+input[type="submit"]:hover{
+    background-color: white;
+    color: orange;
+    border: 2px solid orange;
+}
+.comment{
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    padding: 10px;
+    background-color: darkcyan;
+    text-align: center;
+}
+.border ul{
+    margin-left: 5px;
+}
+.border h4{
     text-align: center;
 }
 
@@ -285,7 +379,14 @@ footer{
     border: 2px solid white;
     font-family: 'Comic Sans MS', sans-serif;
 }
-
+#message{
+    font-family: 'Comic Sans MS', sans-serif;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
 @media only screen and (max-width: 600px){
     nav{
         flex-direction: column;
@@ -313,12 +414,19 @@ footer{
         flex-direction: column;
         gap: 15px;
     }
+    .english-row, .check-row {
+        flex-direction: column;
+        gap: 15px;
+    }
 
     .form-row label {
         width: 100%;
         text-align: center;
     }
-
+    .english-row label {
+        width: 100%;
+        text-align: center;
+    }
     .spacer {
         width: 100%;
         text-align: left;
@@ -395,5 +503,18 @@ footer{
         display: inline-block;
         border: 1px solid #ccc;
         box-sizing: border-box;
+    }
+    .loginparent{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        
+    }
+    footer{
+        flex-direction: column;
+    }
+    input[type="submit"]{
+        margin-bottom: 5px;
     }
 }

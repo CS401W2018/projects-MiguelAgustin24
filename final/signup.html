@@ -22,28 +22,81 @@
         <a href="signup.html" class="nav-link">Sign up</a>
     </nav>
     <main>
-        <h1>
-            Sign Up for Bright Minds Academy
-        </h1>
+        <div id="message"></div>
         <hr>
-        <form action="signup.php" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <br>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-            <br>
-            <input type="submit" value="Sign Up">
-        </form>
+    <form action="/submit" method="post" id="myForm">
+    <fieldset>
+            <legend>
+                <h1>
+                Sign Up for Bright Minds Academy
+                </h1>
+            </legend>
+        <div class="loginparent">
+            <div class="signin">
+                <h2>
+                    Already have an account? Enter your Email and password below
+                </h2>
+                <div class="form-row">
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" placeholder="Email">
+                </div>
+                <div class="form-row">
+                <label for="password">Password: </label>
+                <input type="password" id="password" name="password" placeholder="Password">
+                </div>
+                <div class="form-row">
+                    <div class="spacer"></div>
+                        <input type="submit">
+                </div>
+            </div>
+            <div class="new">
+                <h2>
+                    New to Bright Minds Academy? Sign up here!
+                </h2>
+                <div class ="signup">
+                    <label for="fname">First Name: </label>
+                    <input type="text" id="fname" name="first" placeholder="First Name">
+                </div>
+                <div class="signup">
+                    <label for="lname">Last Name: </label>
+                    <input type="text" id="lname" name="last" placeholder="Last Name">
+                </div>
+                <div class="signup">
+                    <label for="age">Age: </label>
+                    <input type="number" id="age" name="age" placeholder="Age">
+                </div>
+                <div class ="signup">
+                    <label for="new-password">Password: </label>
+                    <input type="password" id="new-password" name="new-password" placeholder="Password">
+                </div>
+                <div class="signup">
+                    <label for="new-email">Email: </label>
+                    <input type="email" id="new-email" name="new-email" placeholder="Email" required>
+                </div>
+                <div class="signup">
+                    <label for="new-email">Name of Parent/Guardian: </label>
+                    <input type="text" id="parent" name="parent" placeholder="Parent/Guardian Name">
+                </div>
+                    <div class="form-row">
+                        <div class="spacer"></div>
+                        <input type="submit">
+                </div>
+            </div>
+        </div>
+        <div class="form-row">
+            <label for="comments">Comments to help us improve: </label>
+            <textarea id="comments" name="text" rows="4" cols="50" placeholder="Enter text here"></textarea>
+        </div>    
+    </fieldset> 
+    </form>
     </main>
+    <br>
     <footer>
         <p>
-            &copy; 2021 Bright Minds Academy
+            &copy; 2024 Bright Minds Academy
         </p>
     </footer>
+    <script src="signup.js"></script>
     
 </body>
 </html>
